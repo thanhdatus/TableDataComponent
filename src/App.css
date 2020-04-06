@@ -1,0 +1,7 @@
+.TableItem,
+th,
+td {
+  padding: 30px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}

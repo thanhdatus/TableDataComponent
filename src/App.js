@@ -16,16 +16,16 @@ class App extends Component {
     return (
       <div className='App'>
         <table>
-          {this.tableItems.map((item, index) => (
-            <tr>
+          <tbody>
+            {this.tableItems.map((item, index) => (
               <TableItem
                 key={index}
                 column1={item[0]}
                 column2={item[1]}
                 column3={item[2]}
               />
-            </tr>
-          ))}
+            ))}
+          </tbody>
         </table>
       </div>
     );
